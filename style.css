@@ -1,0 +1,94 @@
+/*Mouse pointer stuff*/
+.cursorStuff {
+cursor: url("Images/websitePointer.png"), default;
+}
+
+
+.mouseDown {
+cursor: url("Images/cursorPointerActive.png"), default;
+}
+
+
+
+a {
+cursor: url("Images/websitePointer.png"), default !important;
+}
+
+a:active {
+cursor: url("Images/cursorPointerActive.png"), default !important;
+}
+
+a img {
+cursor: url("Images/websitePointer.png"), default !important;
+}
+
+a img:active {
+cursor: url("Images/cursorPointerActive.png"), default !important;
+}
+
+/*------------------------------------------------------------------------*/
+
+body {
+  text-align:center;
+  color:gold !important;
+  background-image: url("Images/wallTexture.png");
+}
+
+
+h1 a {
+  text-decoration: none;
+  color: gold;
+}
+
+.paragrapsh {
+  border:5px groove gold;
+}
+
+.navbar-expand-lg {
+  border:5px groove gold;
+  margin: 10px;
+}
+
+ul {
+  text-color: gold !important;
+
+}
+
+nav a { 
+  text-decoration:none;
+  color:gold !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+li { 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav a:hover {
+  color:black !important;
+}
+
+.servus {
+ display: flex;
+ align-items:center;
+ justify-content:center;
+ font-family: 'Brush Script MT', cursive;
+}
+
+.big {
+  display:flex;
+}
+
+
+.nav-bar-toggler {
+
+}
+
+.navbar-toggler-icon {
+  background-image: url(/FlagR.png) !important;
+}
+
